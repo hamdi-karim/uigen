@@ -2,10 +2,20 @@
 
 AI-powered React component generator with live preview.
 
+## Motivation
+
+Building UI components often requires context-switching between design, code, and preview — slowing down iteration. UIGen lets you describe what you want in plain English and instantly see a live-rendered React component, keeping you in flow. It's built for developers who want to prototype quickly without leaving the browser.
+
 ## Prerequisites
 
 - Node.js 18+
 - npm
+
+## Quick Start
+
+1. Clone the repo and run `npm run setup` to install dependencies and initialize the database.
+2. Optionally add your `ANTHROPIC_API_KEY` to `.env` (the app works without it using a mock model).
+3. Run `npm run dev` and open [http://localhost:3000](http://localhost:3000).
 
 ## Setup
 
@@ -65,3 +75,12 @@ Open [http://localhost:3000](http://localhost:3000)
 - Prisma with SQLite
 - Anthropic Claude AI
 - Vercel AI SDK
+
+## Contributing
+
+Contributions are welcome! To get started:
+
+1. Fork the repository and create a branch for your change.
+2. Run `npm run setup` to prepare your local environment.
+3. Make your changes and ensure tests pass with `npm run test`.
+4. Open a pull request describing what you changed and why.
